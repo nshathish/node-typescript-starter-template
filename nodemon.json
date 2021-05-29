@@ -1,0 +1,10 @@
+{
+  "ignode": [
+    "node_modules"
+  ],
+  "watch": [
+    "src"
+  ],
+  "exec": "npm start:nodemon",
+  "ext": "ts"
+}
