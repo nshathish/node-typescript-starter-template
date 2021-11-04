@@ -4,11 +4,7 @@
   "description": "A basic template to quickly setup a node project with typescript",
   "main": "index.js",
   "scripts": {
-    "dev:best": "tsc-watch --onSuccess \"node ./dist\"",
-    "dev:alterone": "ts-node src/index.ts",
-    "dev:start:alterone": "nodemon",
-    "dev:watch-ts": "tsc -w",
-    "dev:altertwo": "concurrently -k -n \"Typescript, Node\" -c \"yellow.bold, cyan.bold\" \"npm run dev:watch-ts\" \"nodemon ./dist/server/js\""
+    "start": "tsc-watch --onSuccess \"node -r dotenv/config ./dist\""
   },
   "repository": {
     "type": "git",
@@ -22,14 +18,14 @@
   },
   "homepage": "https://github.com/nshathish/node-typescript-starter-template#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.12",
-    "concurrently": "^6.2.0",
-    "nodemon": "^2.0.7",
-    "ts-node": "^10.0.0",
-    "tsc-watch": "^4.4.0",
-    "typescript": "^4.3.2"
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.6",
+    "prettier": "^2.4.1",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.4.4"
   }
 }
