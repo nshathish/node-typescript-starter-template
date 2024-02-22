@@ -17,4 +17,4 @@ A basic template to quickly setup a node project with typescript
 
 link to stackoverflow question:
 
-[Stackoverflow] (https://stackoverflow.com/questions/37979489/how-to-watch-and-reload-ts-node-when-typescript-files-change#comment121068696_50528031)
+[Stackoverflow](https://stackoverflow.com/questions/37979489/how-to-watch-and-reload-ts-node-when-typescript-files-change#comment121068696_50528031)
