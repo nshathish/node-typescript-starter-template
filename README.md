@@ -14,3 +14,6 @@ A basic template to quickly setup a node project with typescript
 7. new kid in town: `ts-node-dev` => `ts-node-dev --respawn --transpileOnly ./src/index.ts`
 
 ### environment file should be .env and added to gitignore
+
+link to stackoverflow question:
+[https://stackoverflow.com/questions/37979489/how-to-watch-and-reload-ts-node-when-typescript-files-change#comment121068696_50528031] Stackoverflow
