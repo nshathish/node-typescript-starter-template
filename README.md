@@ -13,8 +13,10 @@ A basic template to quickly setup a node project with typescript
 6. starting from nodejs `v16.19.0`, the CLI introduced the `--watch` option, eliminating additional dependencies like `nodemon`; use CLI `--watch` option with `ts-node` like this: `node --watch --loader=ts-node/esm ./src/index.ts`
 7. new kid in town: `ts-node-dev` => `ts-node-dev --respawn --transpileOnly ./src/index.ts`
 
-### environment file should be .env and added to gitignore
-
 link to stackoverflow question:
 
 [Stackoverflow](https://stackoverflow.com/questions/37979489/how-to-watch-and-reload-ts-node-when-typescript-files-change#comment121068696_50528031)
+
+### environment file should be .env and added to gitignore
+
+
